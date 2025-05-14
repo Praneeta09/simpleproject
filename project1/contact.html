@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+      form{
+        border: 2px solid black;
+        width: 500px;
+        margin:10px auto; 
+      }
+      button{
+        background-color: cornsilk;
+        color:crimson;
+      }
+    </style>
+</head>
+<body>
+
+  <a href="index.html">•Home</a><br>
+<a href="index.html#AboutTLS">•AboutTLS</a><br>  
+<a href="index.html#ourmenu">•Our Menu</a><br>
+<a href="store.html">•Store hours</a><br> 
+ <img src="./medias/taco3.jpg" alt="Taco" width="300px" height="200px">
+ <figcaption>Tacos And a Drink</figcaption>
+ <form>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="enter 10 digit number" pattern="[0-9]{10}" required><br>
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+    </fieldset>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="button">Cancel</button>
+</form>
+ <hr>
+ <h3> Our Loaction</h3>
+    <i> 1234 Taco Lane, Food City, USA</i><br>
+    <i>Taco Town ,CA 90210</i>
+    <a href=telephone:+1234567890>•555-555-55</a><br>
+    <a href="#">•Back to top</a><br>
+</body>
+</html>
